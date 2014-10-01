@@ -17,5 +17,6 @@ import scrapy
 class DmozItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
+    date = scrapy.Field()
     linknext = scrapy.Field()
     desc = scrapy.Field()
